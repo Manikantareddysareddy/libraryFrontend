@@ -1,0 +1,40 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    height: 100vh;
+}
+.info-container{
+    width: 50%;
+}
+.home-image{
+    height: 60vh;
+    width: 70vh;
+    position:relative;
+}
+p{
+    line-height: 1.7;
+    font-size: 18px;
+}
+.visit-btn{
+    border: 0 none;
+    background-color: #0077ff;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.visit-btn:hover{
+    border: 2px #0077ff solid;
+    background-color: transparent;
+    padding: 10px;
+    color: #0077ff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,499 @@
+ul{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.book{
+    width: 30%;
+    padding: 13px;
+    margin: 4px;
+    border: lightblue solid;
+    border-radius: 8px;
+    background-color: transparent;
+    gap: 5px;
+}
+h4{
+    margin: 4px;
+    font-size: 20px;
+    font-size: 15px;
+}
+p{
+    margin: 4px;
+    color: #252424;
+    font-size: 15px;
+}
+h5{
+    margin: 7px;
+    color: #252424;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.search-container button{
+    margin-left: 10px;
+    background-color: rgb(250, 198, 135);
+    border: 0 none;
+    color: #000000;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+}
+.search-container input{
+    border-radius: 8px;
+    width: 30%;
+    color: #000000;
+    padding-left: 10px;
+    outline: none;
+    border: #353030 solid;
+}
+.books-main-heading{
+    margin-left: 40px;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+}
+.icon{
+    font-size: 25px;
+   align-self: center;
+   cursor: pointer;
+}
+.note-btn{
+    background-color: #0073ff;
+    color: aliceblue;
+    border: 0 none;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    height: 60px;
+    width: 80px;
+    align-self:flex-end;
+    cursor: pointer;
+    margin: 10px;
+}
+.add-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pop-container{
+    position:static;
+    align-self: flex-end;
+}
+.note-btn:hover{
+    background-color: transparent;
+    color: #0073ff;
+    border: #0073ff solid;
+    border-radius: 10px;
+    font-size: 40px;
+    height: 60px;
+    width: 80px;
+    align-self: flex-end;
+    cursor: pointer;
+    margin: 10px;
+}
+.remove-btn{
+    align-self: flex-end;
+    border: 0 none;
+    background-color: transparent;
+    font-size: 30px;
+    margin: 10px;
+    cursor: pointer;
+  }
+.gen-page-container{
+    display: flex;
+    flex-direction: row;
+}
+    .popup-container{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 65vh;
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px 0px;
+    width: 55vh;
+    padding: 20px;
+}
+.popup-container input{
+    background-color: #ffffff;
+    border: 0 none;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 15px;
+    height:6vh;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+.popup-container select{
+    background-color: #ffffff;
+    margin-bottom: 8px;
+    border: 0 none;
+    color: #000000;
+    font-family: "Roboto";
+    font-size: 15px;
+    height:6vh;
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.add-btn{
+    background-color: #0a4afb;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 17px;
+    padding: 13px;
+    font-weight: 550;
+    border-radius: 7px;
+    border: 0 none;
+    cursor: pointer;
+    align-self: center;
+}
+@media (max-width:500px) {
+    ul{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .book{
+        width: 100%;
+        padding: 13px;
+        margin: 4px;
+        border: lightblue solid;
+        border-radius: 8px;
+        background-color: transparent;
+        gap: 5px;
+    }
+    h4{
+        margin: 4px;
+        font-size: 20px;
+        font-size: 15px;
+    }
+    p{
+        margin: 4px;
+        color: #252424;
+        font-size: 15px;
+    }
+    h5{
+        margin: 7px;
+        color: #252424;
+    }
+    .bottom-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .search-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .search-container button{
+        margin-left: 10px;
+        background-color: rgb(250, 198, 135);
+        border: 0 none;
+        color: #000000;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .search-container input{
+        border-radius: 8px;
+        width: 30%;
+        color: #000000;
+        padding-left: 10px;
+        outline: none;
+        border: #353030 solid;
+    }
+    .books-main-heading{
+        margin-left: 40px;
+    }
+    .icon-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .icon{
+        font-size: 25px;
+       align-self: center;
+       cursor: pointer;
+    }
+    .note-btn{
+        background-color: #0073ff;
+        color: aliceblue;
+        border: 0 none;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 40px;
+        height: 60px;
+        width: 80px;
+        align-self:flex-end;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .add-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pop-container{
+        position:static;
+        align-self: flex-end;
+    }
+    .note-btn:hover{
+        background-color: transparent;
+        color: #0073ff;
+        border: #0073ff solid;
+        border-radius: 10px;
+        font-size: 40px;
+        height: 60px;
+        width: 80px;
+        align-self: flex-end;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .remove-btn{
+        align-self: flex-end;
+        border: 0 none;
+        background-color: transparent;
+        font-size: 30px;
+        margin: 10px;
+        cursor: pointer;
+      }
+    .gen-page-container{
+        display: flex;
+        flex-direction: row;
+    }
+        .popup-container{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        height: 50vh;
+        border-radius: 17px;
+        box-shadow: 5px 5px 5px 0px;
+        width: 80vw;
+        padding: 20px;
+    }
+    .popup-container input{
+        background-color: #ffffff;
+        border: 0 none;
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 15px;
+        height:6vh;
+        margin-bottom: 8px;
+        border-radius: 5px;
+        outline: none;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    .popup-container select{
+        background-color: #ffffff;
+        margin-bottom: 8px;
+        border: 0 none;
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 15px;
+        height:6vh;
+        border-radius: 5px;
+        outline: none;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    
+    .add-btn{
+        background-color: #0a4afb;
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 17px;
+        padding: 13px;
+        font-weight: 550;
+        border-radius: 7px;
+        border: 0 none;
+        cursor: pointer;
+        align-self: center;
+    }
+}
+@media (min-width:501px) and (max-width:768px) {
+    ul{
+        background-color: transparent;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .book{
+        width: 40%;
+        padding: 13px;
+        margin: 4px;
+        border: lightblue solid;
+        border-radius: 8px;
+        background-color: transparent;
+        gap: 5px;
+    }
+    h4{
+        margin: 4px;
+        font-size: 20px;
+        font-size: 15px;
+    }
+    p{
+        margin: 4px;
+        color: #252424;
+        font-size: 15px;
+    }
+    h5{
+        margin: 7px;
+        color: #252424;
+    }
+    .bottom-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .search-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .search-container button{
+        margin-left: 10px;
+        background-color: rgb(250, 198, 135);
+        border: 0 none;
+        color: #000000;
+        cursor: pointer;
+        border-radius: 8px;
+        padding: 10px;
+    }
+    .search-container input{
+        border-radius: 8px;
+        width: 30%;
+        color: #000000;
+        padding-left: 10px;
+        outline: none;
+        border: #353030 solid;
+    }
+    .books-main-heading{
+        margin-left: 40px;
+    }
+    .icon-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .icon{
+        font-size: 25px;
+       align-self: center;
+       cursor: pointer;
+    }
+    .note-btn{
+        background-color: #0073ff;
+        color: aliceblue;
+        border: 0 none;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 40px;
+        height: 60px;
+        width: 80px;
+        align-self:flex-end;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .add-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .pop-container{
+        position:static;
+        align-self: flex-end;
+    }
+    .note-btn:hover{
+        background-color: transparent;
+        color: #0073ff;
+        border: #0073ff solid;
+        border-radius: 10px;
+        font-size: 40px;
+        height: 60px;
+        width: 80px;
+        align-self: flex-end;
+        cursor: pointer;
+        margin: 10px;
+    }
+    .remove-btn{
+        align-self: flex-end;
+        border: 0 none;
+        background-color: transparent;
+        font-size: 30px;
+        margin: 10px;
+        cursor: pointer;
+      }
+    .gen-page-container{
+        display: flex;
+        flex-direction: row;
+    }
+        .popup-container{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        height: 60vh;
+        border-radius: 17px;
+        box-shadow: 5px 5px 5px 0px;
+        width: 60vw;
+        padding: 20px;
+    }
+    .popup-container input{
+        background-color: #ffffff;
+        border: 0 none;
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 15px;
+        height:6vh;
+        margin-bottom: 8px;
+        border-radius: 5px;
+        outline: none;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    .popup-container select{
+        background-color: #ffffff;
+        margin-bottom: 8px;
+        border: 0 none;
+        color: #000000;
+        font-family: "Roboto";
+        font-size: 15px;
+        height:6vh;
+        border-radius: 5px;
+        outline: none;
+        padding: 3px;
+        margin-bottom: 10px;
+    }
+    
+    .add-btn{
+        background-color: #0a4afb;
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 17px;
+        padding: 13px;
+        font-weight: 550;
+        border-radius: 7px;
+        border: 0 none;
+        cursor: pointer;
+        align-self: center;
+    }
+}
